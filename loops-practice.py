@@ -56,12 +56,10 @@ for numba in range(2,20+1, 2):
 print("\n")
 print("6. Write a program to get a number and print it's factorial.")
 
-my_num = int(input("Enter a number:\n"))
+n = int(input("Enter a positive number:\n"))
+result = 1 # initialize a vairable to store result each iteration
+for value in range(n,0,-1): # range(start, stop, step)
+    result *= value
+print("factorial:", result)
 
 
-for g in range(my_num + 1):
-    factorial = 0
-    if g > 0:
-        next = my_num - 1
-        factorial = g * next
-    print(factorial)
