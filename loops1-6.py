@@ -40,6 +40,7 @@ print("4. Using range():")
 for numb in range(1,10+1):
     print(numb)
 
+print("\n")
 print("5. Stepping with range():")
 # Write a for loop that uses range() to print even numbers from 2 to 20
 # (inclusive).
